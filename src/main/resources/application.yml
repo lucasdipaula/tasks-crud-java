@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://lucasdipaula:admin@cluster0.otpnwf9.mongodb.net/${spring.data.mongodb.database}?retryWrites=true&w=majority
+      database : Cluster0
